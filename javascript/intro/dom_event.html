@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <title>Teste DOM</title>
+  <style>
+    #out{
+      background-color: red;
+      color: white;
+      width: 300px;
+      text-align: center;
+      font-size: 36px;
+    }
+  </style>
+  <script>
+    function sayHello(){
+      var out = document.getElementById("out");
+      var nome = prompt("Informe seu nome");
+        out.innerHTML = "Olá "+ nome;
+    }
+  </script>
+</head>
+<body>
+<div id="out">
+  Seu nome aqui.
+</div>
+<br/>
+
+<button onclick="sayHello()">OK</button>
+</body>
+</html>

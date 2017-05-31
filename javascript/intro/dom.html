@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <title>Teste DOM</title>
+  <style>
+    #out{
+      background-color: red;
+      color: white;
+      width: 300px;
+      text-align: center;
+      font-size: 36px;
+    }
+  </style>
+</head>
+
+<body>
+<div id="out"></div>
+
+<script>
+  var out = document.getElementById("out");
+  var nome = prompt("Informe seu nome");
+  out.innerHTML = "Olá "+ nome;
+</script>
+</body>
+</html>

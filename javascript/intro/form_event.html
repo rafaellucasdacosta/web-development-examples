@@ -1,0 +1,59 @@
+
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <title>Teste DOM</title>
+  <style>
+    #out{
+      background-color: red;
+      color: white;
+      width: 300px;
+      text-align: center;
+      font-size: 36px;
+      display: none;
+    }
+  </style>
+  <script>
+    function verificar(){
+      var txtnome = document.getElementById("txtnome");
+      var nome = txtnome.value;
+      if (nome == ""){
+        var btn = document.getElementById("btnOK");
+        btn.disabled = true;        
+      }
+    }
+
+    function sayHello(){
+      var msg = document.getElementById("msg");
+      msg.innerHTML = "";
+      var out = document.getElementById("out");
+      // alert(out.innerHTML);
+      var txtnome = document.getElementById("txtnome");
+      var nome = txtnome.value;
+      if (nome == ""){
+        msg.innerHTML="Informe o nome!";
+        msg.style.color='red';
+        return;
+      }
+      out.innerHTML = "Olá "+ nome;
+      out.style.display = "block";
+      txtnome.value = "";
+    }
+  </script>
+</head>
+<body>
+<div id="out">
+  Seu nome aqui.
+</div>
+<br/>
+
+<form>
+  <input type="text" id="txtnome" placeholder="Seu nome"
+  onchange="verificar()"/>
+  <div id="msg"></div>
+  <input id="btnOK" type="button" onclick="sayHello()" value="OK"/>
+</form>
+
+</body>
+</html>
