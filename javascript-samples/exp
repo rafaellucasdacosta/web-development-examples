@@ -1,0 +1,13 @@
+Sintese: 2d e 3d
+:: WEB -> HTML5
+
+HTML5 -> Canvas (context 2d)
+2d -> X,Y
+Sistema de Coordenadas em duas dimensões.
+Imagem -> Função f(x,y)
+
+HTML5 -> Canvas (context WebGL)
+OpenGL -> linguagem C
+3d -> X,Y,Z
+Sombra, Textura, Câmera, Iluminação
+Renderização  -> GPU vai interpretar o código OpenGL.
