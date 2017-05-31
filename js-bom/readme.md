@@ -1,5 +1,4 @@
-The Browser Object Model
-------------------------
+# The Browser Object Model
 
 O BOM (Browser Object Model) é uma forma da Linguagem Javascript obter informações e controlar o browser.
 Mesmo existindo há muito tempo, não existe um padrão para manipular o BOM.
@@ -12,8 +11,8 @@ Os principais objetos disponíveis para manipulação do Browser são:
 * history -> controla o histórico de navegação
 * navigator -> provê informações do navegador
 
-window
-======
+## window
+
 A principal informação disponível é o tamanho da janela: 
 + window.innerHeight: Altura 
 + window.innerWidth: Largura
@@ -28,12 +27,14 @@ Uma solução abrangente pode ser
 
 Alguns outros métodos interessantes são:
 + window.open() - abre uma nova janela
+```javascript
 	win = window.open('http://google.com.br', '', 'width=200, height=100');
-window.close() - fecha uma janela
-window.moveTo() - move a janela
-window.resizeTo() - altera as dimensões
-window.focus() - ativa o foco da janela
-window.location - modifica o documento aberto na janela
+```
++ window.close() - fecha uma janela
++ window.moveTo() - move a janela
++ window.resizeTo() - altera as dimensões
++ window.focus() - ativa o foco da janela
++ window.location - modifica o documento aberto na janela
 
 screen
 ======
