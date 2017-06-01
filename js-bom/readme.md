@@ -40,7 +40,7 @@ screen
 ======
 
 Window Screen
-The window.screen object can be written without the window prefix.
+Pode ser acessado por window.screen ou apenas screen.
 
 Properties:
 
@@ -50,111 +50,17 @@ screen.availWidth
 screen.availHeight
 screen.colorDepth
 screen.pixelDepth
-Window Screen Width
-The screen.width property returns the width of the visitor's screen in pixels.
-
-Example
-Display the width of the screen in pixels:
-
-document.getElementById("demo").innerHTML =
-"Screen Width: " + screen.width;
-Result will be:
-
-Screen Width: 1920
-Try it Yourself »
-Window Screen Height
-The screen.height property returns the height of the visitor's screen in pixels.
-
-Example
-Display the height of the screen in pixels:
-
-document.getElementById("demo").innerHTML =
-"Screen Height: " + screen.height;
-Result will be:
-
-Screen Height: 1080
-Try it Yourself »
-
-Window Screen Available Width
-The screen.availWidth property returns the width of the visitor's screen, in pixels, minus interface features like the Windows Taskbar.
-
-Example
-Display the available width of the screen in pixels:
-
-document.getElementById("demo").innerHTML =
-"Available Screen Width: " + screen.availWidth;
-Result will be:
-
-Available Screen Width: 1920
-Try it Yourself »
-Window Screen Available Height
-The screen.availHeight property returns the height of the visitor's screen, in pixels, minus interface features like the Windows Taskbar.
-
-Example
-Display the available height of the screen in pixels:
-
-document.getElementById("demo").innerHTML =
-"Available Screen Height: " + screen.availHeight;
-Result will be:
-
-Available Screen Height: 1050
-Try it Yourself »
-Window Screen Color Depth
-The screen.colorDepth property returns the number of bits used to display one color.
-
-All modern computers use 24 bit or 32 bit hardware for color resolution:
-
-24 bits =      16,777,216 different "True Colors"
-32 bits = 4,294,967,296 different "Deep Colors"
-Older computers used 16 bits: 65,536 different "High Colors" resolution.
-
-Very old computers, and old cell phones used 8 bits: 256 different "VGA colors".
-
-Example
-Display the color depth of the screen in bits:
-
-document.getElementById("demo").innerHTML = 
-"Screen Color Depth: " + screen.colorDepth;
-Result will be:
-
-Screen Color Depth: 24
-Try it Yourself »
-The #rrggbb (rgb) values used in HTML represents "True Colors" (16,777,216 different colors)
-
-Window Screen Pixel Depth
-The screen.pixelDepth property returns the pixel depth of the screen.
-
-Example
-Display the pixel depth of the screen in bits:
-
-document.getElementById("demo").innerHTML =
-"Screen Pixel Depth: " + screen.pixelDepth;
-Result will be:
-
-Screen Pixel Depth: 24
-Try it Yourself »
-For modern computers, Color Depth and Pixel Depth are equal.
-
 
 location
 ========
-
-JavaScript Window Location
-❮ PreviousNext ❯
-The window.location object can be used to get the current page address (URL) and to redirect the browser to a new page.
-
-Window Location
-The window.location object can be written without the window prefix.
+Acessado por window.location.
 
 Some examples:
-
 window.location.href returns the href (URL) of the current page
 window.location.hostname returns the domain name of the web host
 window.location.pathname returns the path and filename of the current page
 window.location.protocol returns the web protocol used (http: or https:)
 window.location.assign loads a new document
-Window Location Href
-The window.location.href property returns the URL of the current page.
 
 Example
 Display the href (URL) of the current page:
@@ -259,7 +165,7 @@ history.forward() - same as clicking forward in the browser
 browser
 =======
 JavaScript Window Navigator
-❮ PreviousNext ❯
+
 The window.navigator object contains information about the visitor's browser.
 
 Window Navigator
