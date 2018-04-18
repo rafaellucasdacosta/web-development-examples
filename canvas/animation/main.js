@@ -8,7 +8,7 @@ var myRectangle = {
 var lastTime = 0;
 
 function calculateFps() {
-  var now = (+new Date),
+  var now = +new Date,
   fps = 1000 / (now - lastTime);
   lastTime = now;
   return fps;
@@ -64,7 +64,7 @@ function animate(time) {
   drawBackground();
   update();
   draw();
-  drawFPS(500);
+  drawFPS(1000);
   window.requestNextAnimationFrame(animate);
 }
 

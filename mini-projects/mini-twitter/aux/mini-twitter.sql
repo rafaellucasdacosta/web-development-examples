@@ -1,0 +1,14 @@
+
+CREATE TABLE `twitts` (
+  `id` int(11) NOT NULL,
+  `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `owner` varchar(20) NOT NULL,
+  `message` varchar(140) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+ALTER TABLE `twitts`
+  ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `twitts`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;

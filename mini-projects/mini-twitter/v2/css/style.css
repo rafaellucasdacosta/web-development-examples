@@ -1,0 +1,124 @@
+body {
+   font-family: sans-serif;
+   font-size: 14px;
+   background-color: #ebf2fa;
+}
+
+main {
+   margin: 0 auto;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   width: 900px;
+   border-color: #1b3c64;
+   border-style: solid;
+   border-width: thin;
+   background-color: #4b86ce;
+   box-shadow: 5px 5px #a3c2c2;
+}
+
+#page-header {
+   padding-top: 20px;
+   font-size: 36px;
+   font-family: 'Pacifico', cursive;
+   text-align: center;
+   font-weight: bold;
+   color: #ffffff;
+   text-shadow: 2px 2px #000000;
+   /*background-color: #ffffff;*/
+}
+
+#page-header img {
+   width: 55px;
+}
+
+nav {
+   text-align: center;
+   width: 100%;
+   background-color: #0b1828;
+   color: #ebf2fa;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   font-size: 18px;
+   vertical-align: middle;
+}
+
+.remark0 {
+   color: #66BD21;
+}
+
+.remark1 {
+   color: #E7096C;
+}
+
+.remark2 {
+   color: #FE318F;
+}
+
+#twitt-panel {
+   width: 100%;
+   text-align: center;
+   border-bottom-color: #0b1828;
+   border-bottom-style: dotted;
+   border-bottom-width: 2px;
+}
+
+#twitt-panel h1 {
+   color: #0b1828;
+}
+
+#txtName{
+   border: #0b1828 solid thin;
+   width: 400px;
+   padding: 5px;
+   font-size: 18px;
+   margin: 0;
+}
+
+#txtMsg{
+   border: #0b1828 solid thin;
+   padding: 5px;
+   font-size: 18px;
+   width: 400px;
+   height: 100px;
+}
+
+.button{
+   border: #0b1828 solid thin;
+   background-color: #ffffff;
+   color: #000000;
+   margin: 5px;
+   padding: 5px;
+   font-size: 14px;
+   font-weight: bold;
+   width: 120px;
+   height: 30px;
+}
+
+.send {
+   background-color: #66BD21;
+}
+
+#twitts {
+   padding: 0px;
+}
+
+#twitts h1 {
+   text-align: center;
+   color: #0b1828;
+}
+
+.one-twitt {
+   border-top: #0b1828 solid thin;
+   border-bottom: #0b1828 solid thin;
+   background-color: #ffffff;
+   padding: 5px;
+   font-size: 16px;
+}
+
+.user {
+   font-weight: bold;
+}
+
+.one-twitt p {
+   font-size: 20px;
+}

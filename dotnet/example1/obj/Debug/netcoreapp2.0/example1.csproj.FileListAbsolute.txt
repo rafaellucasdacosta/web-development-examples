@@ -1,0 +1,10 @@
+/home/wellington/projects/aulas/web-development-examples/dotnet/example1/bin/Debug/netcoreapp2.0/example1.deps.json
+/home/wellington/projects/aulas/web-development-examples/dotnet/example1/bin/Debug/netcoreapp2.0/example1.runtimeconfig.json
+/home/wellington/projects/aulas/web-development-examples/dotnet/example1/bin/Debug/netcoreapp2.0/example1.runtimeconfig.dev.json
+/home/wellington/projects/aulas/web-development-examples/dotnet/example1/bin/Debug/netcoreapp2.0/example1.dll
+/home/wellington/projects/aulas/web-development-examples/dotnet/example1/bin/Debug/netcoreapp2.0/example1.pdb
+/home/wellington/projects/aulas/web-development-examples/dotnet/example1/obj/Debug/netcoreapp2.0/example1.csproj.CoreCompileInputs.cache
+/home/wellington/projects/aulas/web-development-examples/dotnet/example1/obj/Debug/netcoreapp2.0/example1.AssemblyInfoInputs.cache
+/home/wellington/projects/aulas/web-development-examples/dotnet/example1/obj/Debug/netcoreapp2.0/example1.AssemblyInfo.cs
+/home/wellington/projects/aulas/web-development-examples/dotnet/example1/obj/Debug/netcoreapp2.0/example1.dll
+/home/wellington/projects/aulas/web-development-examples/dotnet/example1/obj/Debug/netcoreapp2.0/example1.pdb
