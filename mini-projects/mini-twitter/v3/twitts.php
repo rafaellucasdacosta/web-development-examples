@@ -22,10 +22,12 @@
 <body>
    <main>
    <header id="page-header">
-      <img src="image/logo.png" /> <br/>
-      <span class="remark0">Mini</span><span class="remark1">Twitt</span><span class="remark2">er</span>
+      <div id="logo">
+         <img src="image/logo.png" />
+         <span class="remark0">Mini</span><span class="remark1">Twitt</span><span class="remark2">er</span>
+      </div>
+      <nav id="menu">home | trending | profile</nav>
    </header>
-   <nav>home | trending | profile</nav>
    <section id="twitt-panel">
       <header><h1>O que está acontecendo?</h1></header>
       <form method="post">
@@ -37,6 +39,9 @@
          </footer>
       </form>
    </section>
+
+
+
 
    <section id="twitts">
       <header><h1>Veja o que seus amigos estão contando.</h1></header>

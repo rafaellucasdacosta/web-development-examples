@@ -4,8 +4,8 @@
       die("Connection failed: " . $conn->connect_error);
    }
 
-   $name = $_POST["name"];
-   $msg = $_POST["msg"];
+   $name = $_POST["owner"];
+   $msg = $_POST["message"];
    if (isset($name) && isset($msg)){
       $stmt = $conn->prepare("INSERT INTO twitts (owner, message) VALUES (?, ?)");
       $stmt->bind_param("ss", $name, $msg);
@@ -23,8 +23,8 @@
    <section>
       <header><h1>O que está acontecendo?</h1></header>
       <form method="post">
-         <input type="text" id="txtName" name="name" size="50"/><br />
-         <textarea id="txtMsg" name="msg" rows="5" cols="50"></textarea>
+         <input type="text" id="txtName" name="owner" size="50"/><br />
+         <textarea id="txtMsg" name="message" rows="5" cols="50"></textarea>
          <footer>
             <input type="submit" />
             <input type="reset" />
