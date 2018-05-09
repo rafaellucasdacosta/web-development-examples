@@ -1,0 +1,152 @@
+body {
+   font-family: sans-serif;
+   font-size: 14px;
+   background-color: #ebf2fa;
+   margin: 0;
+   padding: 0;
+}
+
+main {
+   margin: 0 auto;
+   width: 100%;
+   border-color: #1b3c64;
+   border-style: solid;
+   border-width: thin;
+   background-color: #4b86ce;
+   box-shadow: 5px 5px #a3c2c2;
+}
+
+#page-header {
+   width: 100%;
+   margin: 0;
+   background-color: #0b1828;
+   height: 70px;
+}
+
+#logo {
+   padding-top: 5px;
+   padding-left: 10px;
+   font-size: 36px;
+   text-align: center;
+   font-weight: bold;
+   color: #ffffff;
+   text-shadow: 2px 2px #000000;
+   float: left;
+}
+
+#menu {
+   float: right;
+   color: #ffffff;
+   padding-top: 25px;
+   padding-right: 10px;
+   font-size: 18px;
+}
+
+#logo img {
+   width: 35px;
+}
+
+.remark0 {
+   color: #66BD21;
+   font-family: 'Pacifico', cursive;
+}
+
+.remark1 {
+   color: #E7096C;
+   font-family: 'Pacifico', cursive;
+}
+
+.remark2 {
+   color: #FE318F;
+   font-family: 'Pacifico', cursive;
+}
+
+#twitt-panel {
+   width: 100%;
+   text-align: center;
+   border-bottom-color: #0b1828;
+   border-bottom-style: dotted;
+   border-bottom-width: 2px;
+}
+
+#twitt-panel h1 {
+   color: #0b1828;
+}
+
+#txtName{
+   border: #0b1828 solid thin;
+   width: 400px;
+   padding: 5px;
+   font-size: 18px;
+   margin: 0;
+}
+
+#txtMsg{
+   border: #0b1828 solid thin;
+   padding: 5px;
+   font-size: 18px;
+   width: 400px;
+   height: 100px;
+}
+
+.button{
+   border: #0b1828 solid thin;
+   background-color: #ffffff;
+   color: #000000;
+   margin: 5px;
+   padding: 5px;
+   font-size: 14px;
+   font-weight: bold;
+   width: 120px;
+   height: 30px;
+}
+
+.send {
+   background-color: #66BD21;
+}
+
+#twitts {
+   width: 480px;
+   margin: 0 auto;
+   padding: 0px;
+}
+
+#twitts h1 {
+   text-align: center;
+   color: #0b1828;
+}
+
+.one-twitt {
+   border-bottom: #eeeeee solid thin;
+   background-color: #ffffff;
+   padding: 5px;
+   font-size: 16px;
+}
+
+.one-twitt:hover{
+   background-color: #eeeeee;
+
+}
+
+.user {
+   font-weight: bold;
+}
+
+.one-twitt p {
+   font-size: 20px;
+}
+
+
+#login-panel {
+   width: 100%;
+   text-align: center;
+
+}
+
+input {
+   border: #0b1828 solid thin;
+   width: 400px;
+   padding: 5px;
+   font-size: 18px;
+   margin: 0;
+}
