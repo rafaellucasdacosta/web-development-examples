@@ -1,0 +1,27 @@
+Links da Documentação para PHP
+
+HEADER
+http://php.net/manual/en/function.header.php
+
+MYSQLi
+https://www.w3schools.com/php/php_ref_mysqli.asp
+http://php.net/manual/en/book.mysqli.php
+http://php.net/manual/en/mysqli.query.php
+http://php.net/manual/en/mysqli.prepare.php
+http://php.net/manual/en/mysqli-stmt.execute.php
+
+PHP SESSION
+https://www.w3schools.com/php/php_sessions.asp
+http://php.net/manual/en/session.examples.basic.php
+http://php.net/manual/en/reserved.variables.session.php
+http://php.net/manual/en/book.session.php
+
+PHP COOKIES
+https://www.w3schools.com/php/php_cookies.asp
+http://php.net/manual/en/features.cookies.php
+http://php.net/manual/en/reserved.variables.cookies.php
+https://www.tutorialrepublic.com/php-tutorial/php-cookies.php
+
+JAVASCRIPT COOKIES
+https://www.w3schools.com/js/js_cookies.asp
+https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie
