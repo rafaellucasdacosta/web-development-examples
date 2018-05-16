@@ -1,0 +1,24 @@
+Funcionalidades
+---------------
+
+[Publicar um tweet]
+-> Publicar um texto com até 140 caracteres
+
+[Ler tweets]
+-> Acessar o perfil de um usuário e ler seus tweets em ordem cronológica inversa
+
+[Segui membro]
+-> Seguir um usuário e com isso listar seus tweets na timeline do seguidor
+
+[Curtir um tweet]
+-> Marcar um tweet com uma curtida
+
+Demais funcionalidades
+- Cadastrar-se
+- Fazer login
+- Fazer logoff
+- Trocar dados do perfil
+- Colocar uma foto de perfil
+- Excluir um tweet
+- Mencionar um usuário em um tweet
+- Deixar de seguir um usuário
