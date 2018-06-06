@@ -7,7 +7,7 @@ Funcionalidades
 [Ler tweets]
 -> Acessar o perfil de um usuário e ler seus tweets em ordem cronológica inversa
 
-[Segui membro]
+[Seguir usuário]
 -> Seguir um usuário e com isso listar seus tweets na timeline do seguidor
 
 [Curtir um tweet]
@@ -22,3 +22,5 @@ Demais funcionalidades
 - Excluir um tweet
 - Mencionar um usuário em um tweet
 - Deixar de seguir um usuário
+- Descurtir um tweet
+- Tornar minhas publicacoes privadas

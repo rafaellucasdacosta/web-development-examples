@@ -25,3 +25,15 @@ https://www.tutorialrepublic.com/php-tutorial/php-cookies.php
 JAVASCRIPT COOKIES
 https://www.w3schools.com/js/js_cookies.asp
 https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie
+
+VALIDAÇÃO
+http://php.net/manual/pt_BR/function.strip-tags.php
+http://php.net/manual/pt_BR/function.htmlspecialchars.php
+http://php.net/manual/pt_BR/function.htmlentities.php
+http://php.net/manual/pt_BR/function.nl2br.php
+http://php.net/manual/pt_BR/ref.var.php
+http://php.net/manual/pt_BR/function.empty.php
+http://php.net/manual/pt_BR/function.isset.php
+http://php.net/manual/pt_BR/function.trim.php
+https://www.tutorialspoint.com/php/php_validation_example.htm
+https://www.w3schools.com/Js/js_validation.asp
