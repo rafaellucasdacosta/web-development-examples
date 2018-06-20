@@ -1,3 +1,5 @@
+Livro recomendado: Learning PHP, MySQL & JavaScript, 4th Edition
+
 Links da Documentação para PHP
 
 HEADER
@@ -37,3 +39,20 @@ http://php.net/manual/pt_BR/function.isset.php
 http://php.net/manual/pt_BR/function.trim.php
 https://www.tutorialspoint.com/php/php_validation_example.htm
 https://www.w3schools.com/Js/js_validation.asp
+
+Ajax e Javascript Assíncrono
+https://www.w3schools.com/xml/ajax_intro.asp
+https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest
+---json
+https://secure.php.net/manual/pt_BR/ref.json.php
+https://secure.php.net/manual/pt_BR/function.json-decode.php
+https://secure.php.net/manual/pt_BR/function.json-encode.php
+https://www.w3schools.com/js/js_json.asp
+https://www.w3schools.com/js/js_json_intro.asp
+---xml
+http://php.net/manual/en/book.dom.php
+--- Promises
+https://www.devmedia.com.br/programacao-assincrona-em-javascript-com-promises/33184
+https://medium.com/codebuddies/getting-to-know-asynchronous-javascript-callbacks-promises-and-async-await-17e0673281ee
+https://eloquentjavascript.net/11_async.html
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/funcoes_assincronas
